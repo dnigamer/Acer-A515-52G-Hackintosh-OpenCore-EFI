@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-dGPU-Off.aml</string>
+				<string>SSDT-dGPU-Off.aml - Configured for A515-52G (MX130)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -338,6 +338,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>RealtekCardReader.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekCardReader</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1324,7 +1342,7 @@
 			<key>PickerVariant</key>
 			<string>Acidanthera\Syrah</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<false/>
 			<key>TakeoffDelay</key>
@@ -1379,7 +1397,7 @@
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
-			<false/>
+			<true/>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
 			<key>DmgLoading</key>
@@ -1565,9 +1583,9 @@
 			<key>BoardManufacturer</key>
 			<string></string>
 			<key>BoardProduct</key>
-			<string>Mac-1E7E29AD0135F9BC</string>
+			<string></string>
 			<key>BoardSerialNumber</key>
-			<string>C02923102CD0000JC</string>
+			<string></string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1577,11 +1595,11 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02YTUZ5LVCG</string>
+			<string></string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-1E7E29AD0135F9BC</string>
+			<string></string>
 			<key>FirmwareFeatures</key>
 			<data>JvSP/QgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
@@ -1601,9 +1619,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02YTUZ5LVCG</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>E62C083B-3D57-4516-830C-5178CF62D2C6</string>
+			<string></string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1806,7 +1824,7 @@
 			<key>InitialMode</key>
 			<string>Auto</string>
 			<key>ProvideConsoleGop</key>
-			<false/>
+			<true/>
 			<key>ReconnectGraphicsOnConnect</key>
 			<false/>
 			<key>ReconnectOnResChange</key>
